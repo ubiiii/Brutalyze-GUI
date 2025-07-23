@@ -39,7 +39,7 @@ BrutalyzeWeb/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/brutalyze-web.git
+git clone https://github.com/ubiiii/brutalyze-web.git
 cd brutalyze-web
 ```
 
@@ -100,8 +100,11 @@ Reports are generated on-demand and never saved on the server.
 ---
 
 ## 📸 Screenshot
+<img width="1400" height="534" alt="image" src="https://github.com/user-attachments/assets/a4a7cf4d-a0cd-4812-9349-1944b991576c" />
+<img width="1380" height="461" alt="image" src="https://github.com/user-attachments/assets/90265629-2076-4feb-8d66-b0a9777e1ac5" />
+<img width="1331" height="795" alt="image" src="https://github.com/user-attachments/assets/dd096946-0357-4a2f-9111-d568afe0375d" />
+<img width="1358" height="668" alt="image" src="https://github.com/user-attachments/assets/b0e3212d-7587-4954-8543-fcb8683a5b0f" />
 
-> (Optional — add a screenshot of the result page here)
 
 ---
 
