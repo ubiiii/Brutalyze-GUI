@@ -110,14 +110,14 @@ if st.button("🔍 Analyze Logs", type="primary"):
         
         for category, logs in result["classified"].items():
             for log in logs:
-                loc = log.get("location", {})
+                loc = log.get("location", {}) or {}
                 csv_data.append([
                     log.get("timestamp", ""),
                     log.get("user", ""),
                     log.get("ip", ""),
-                    loc.get("country", ""),
-                    loc.get("region", ""),
-                    loc.get("city", ""),
+                    loc.get("country", "") if loc else "",
+                    loc.get("region", "") if loc else "",
+                    loc.get("city", "") if loc else "",
                     category,
                     log.get("raw", "")
                 ])
@@ -161,14 +161,14 @@ if st.button("🔍 Analyze Logs", type="primary"):
                 # Create DataFrame for this category
                 log_data = []
                 for log in logs:
-                    loc = log.get("location", {})
+                    loc = log.get("location", {}) or {}
                     log_data.append({
                         "Timestamp": log.get("timestamp", ""),
                         "User": log.get("user", "-"),
                         "IP": log.get("ip", "-"),
-                        "Country": loc.get("country", "-"),
-                        "Region": loc.get("region", "-"),
-                        "City": loc.get("city", "-"),
+                        "Country": loc.get("country", "-") if loc else "-",
+                        "Region": loc.get("region", "-") if loc else "-",
+                        "City": loc.get("city", "-") if loc else "-",
                         "Raw Log": log.get("raw", "")
                     })
                 
