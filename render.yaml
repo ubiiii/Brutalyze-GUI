@@ -3,8 +3,8 @@ services:
     name: brutalyze-web
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    startCommand: streamlit run streamlit_app.py --server.port=$PORT --server.address=0.0.0.0
     envVars:
-      - key: FLASK_ENV
-        value: production
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: true
     autoDeploy: true
