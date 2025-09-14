@@ -13,3 +13,13 @@ Jul 22 09:08:30 ubuntu sshd[1012]: Failed password for root from 198.51.100.77 p
 Jul 22 09:09:30 ubuntu sshd[1013]: Failed password for root from 198.51.100.77 port 52345 ssh2
 Jul 22 09:10:30 ubuntu sshd[1014]: Failed password for root from 198.51.100.77 port 52345 ssh2
 Jul 22 09:12:00 ubuntu sshd[1015]: Accepted password for user2 from 192.168.1.15 port 54421 ssh2
+Jul 22 09:00:01 ubuntu sshd[1001]: Failed password for invalid user admin from 192.168.1.10 port 51234 ssh2
+Jul 22 09:00:15 ubuntu sshd[1002]: Failed password for root from 203.0.113.25 port 52221 ssh2
+Jul 22 09:00:30 ubuntu sshd[1003]: Accepted password for user1 from 203.0.113.25 port 52221 ssh2
+Jul 22 09:01:01 ubuntu sshd[1004]: Failed password for invalid user test from 192.0.2.15 port 60001 ssh2
+Jul 22 09:01:05 ubuntu sshd[1005]: Accepted password for admin from 192.0.2.15 port 60001 ssh2
+Jul 22 09:01:30 ubuntu sshd[1006]: Did not receive identification string from 198.51.100.12
+Jul 22 09:01:45 ubuntu sshd[1007]: Failed password for user2 from 198.51.100.12 port 53333 ssh2
+Jul 22 09:02:15 ubuntu sshd[1008]: Connection closed by 192.168.1.10 port 51234
+Jul 22 09:02:30 ubuntu systemd[1]: Started Daily apt download activities.
+Jul 22 09:03:01 ubuntu CRON[1010]: pam_unix(cron:session): session opened for user root by (uid=0)
